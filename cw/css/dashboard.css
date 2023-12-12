@@ -1,0 +1,59 @@
+/* dashboard.css */
+
+.top-bar {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 20px; /* Adjust the margin-top to your liking */
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    cursor: pointer;
+}
